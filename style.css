@@ -22,9 +22,13 @@ ul{
     background-color: #000;
 }
 
+ol{
+    margin: 20pt;
+}
+
 li{float: left;}
 
-li a:link, li a:visited{
+ul li a:link, ul li a:visited{
     display: block;
     color: white;
     text-align: center;
@@ -32,4 +36,4 @@ li a:link, li a:visited{
     text-decoration: none;
 }
 
-li a:hover {background-color: #222;}
+ul li a:hover {background-color: #222;}
