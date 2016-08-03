@@ -1,25 +1,35 @@
 body{
-    margin:40px auto;
+    background-color:#333;
+}
+
+article{
+    margin: -13px auto;
     max-width:800px;
     line-height:1.4;
     font-size:20px;
     font-family: "Verdana", Verdana, sans-serif;
     color:#EEE;
-    padding:0 10px;
-    background-color:#444
+    padding:0 20px 10px;
+    background-color:#444;
+    padding-color:#444;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 h1, h2, h3{line-height:1.2;}
 
-a:link{color: #DDF;}
-a:visited{color: #DFD;}
+a:link{color: #CCF;}
+a:visited{color: #CFC;}
 
 ul{
+    max-width:800px;
+    font-size:20px;
+    font-family: "Verdana", Verdana, sans-serif;
+    color:#EEE;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0 20px;
     overflow: hidden;
-    background-color: #000;
+    background-color: #222;
 }
 
 ol{
@@ -34,6 +44,7 @@ ul li a:link, ul li a:visited{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 ul li a:hover {background-color: #222;}

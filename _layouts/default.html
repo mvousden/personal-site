@@ -2,8 +2,10 @@
 {% include head.html %}
 <body>
   {% include navbar.html %}
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.aside }}</h1>
-  {{ page.content }}
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.aside }}</h1>
+    {{ page.content }}
+  </article>
 </body>
 </html>
