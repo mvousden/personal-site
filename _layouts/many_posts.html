@@ -9,9 +9,16 @@
     {{ page.content }}
     {% for post in site.posts reversed %}
       {% if post.category == page.title %}
-      <h3>{{ post.title }}</h3>
+      <hr>
+      <a href={{ post.externalUrl }}>
+        <img src={{ post.imagePath }}
+             style="width:300px;height:200px;margin-top:20px;"
+             border="1px" border-color="#000;" align="right">
+      </a>
+      <a href={{ post.externalUrl }} name={{ post.title }}>
+        <h3>{{ post.title }}</h3>
+      </a>
       {{ post.content }}
-      <br>
       {% endif %}
     {% endfor %}
   </article>

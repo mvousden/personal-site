@@ -20,6 +20,11 @@ h1, h2, h3{line-height:1.2;}
 a:link{color: #CCF;}
 a:visited{color: #CFC;}
 
+img{
+    border:"1px";
+    border-color: #000;
+}
+
 ul{
     max-width:800px;
     font-size:20px;
@@ -35,6 +40,10 @@ ul{
 
 li{
     float: left;
+}
+
+a{
+    text-decoration: none;
 }
 
 ul li a:link, ul li a:visited{
