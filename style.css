@@ -39,11 +39,11 @@ li{
 
 ul li a:link, ul li a:visited{
     display: block;
-    color: white;
+    color: #EEE;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-ul li a:hover {background-color: #222;}
+ul li a:hover {background-color: #272727;}
