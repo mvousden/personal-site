@@ -1,7 +1,7 @@
 ---
 category: Projects
 title: Chagu
-imagePath: chagu.png
+imagePath: project_chagu.png
 externalUrl: https://github.com/mvousden/chagu
 ---
 

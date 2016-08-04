@@ -1,7 +1,7 @@
 ---
 category: Projects
 title: Virtual Micromagnetics
-imagePath: virtual_micromagnetics.png
+imagePath: project_virtual_micromagnetics.png
 externalUrl: http://virtualmicromagnetics.org
 ---
 

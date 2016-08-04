@@ -1,7 +1,7 @@
 ---
 category: Projects
 title: Fidimag
-imagePath: fidimag.jpg
+imagePath: project_fidimag.jpg
 externalUrl: http://computationalmodelling.github.io/fidimag/
 ---
 
