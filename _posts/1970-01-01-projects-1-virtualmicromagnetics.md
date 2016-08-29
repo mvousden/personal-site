@@ -8,7 +8,7 @@ externalUrl: http://virtualmicromagnetics.org
 Enabling accessible and reproducible simulation using virtual machines and
 containers.
 
-Despite it's [widespread usage](http://math.nist.gov/oommf/oommf_cites.html),
+Despite their [widespread usage](http://math.nist.gov/oommf/oommf_cites.html),
 micromagnetic simulation packages remain difficult to install and distribute,
 especially for users with limited software experience.
 This project provides pre-built [virtual machine images](https://atlas.hashicor
