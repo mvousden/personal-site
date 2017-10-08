@@ -1,25 +1,24 @@
-<html>
-{% include head.html %}
-<body>
-  {% include navbar.html %}
-  {% include categorybar.html %}
-  <article>
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.aside }}</h1>
-    {{ page.content }}
-    {% for post in site.posts reversed %}
-      {% if post.category == page.title %}
-      <hr>
-      <a href={{ post.externalUrl }} name={{ post.title }}>
-        <h3>{{ post.title }}
-        <span style="float:right;">
-      <img src={{ site.imageDir }}/{{ post.imagePath }}
-           style="width:350px;height:200px;margin-top:20px;"
-           border="1px" border-color="#000;" align="right">
-      </span></h3></a>
-      {{ post.content }}
-      {% endif %}
-    {% endfor %}
-  </article>
+<html>{% include head.html %}<body>
+    {% include navbar.html %}
+    {% include categorybar.html %}
+    <article>
+        <h1>{{ page.title }}</h1>
+        <p>
+            {{ page.aside }}
+            {{ page.content }}
+            {% for post in site.posts reversed %}
+                {% if post.category == page.title %}
+                    <hr>
+                    <a href={{ post.externalUrl }} name={{ post.title }}><h3>
+                    {{ post.title }}
+                    <span style="float:right;">
+                        <img src={{ site.imageDir }}/{{ post.imagePath }}
+                             style="width:350px;height:200px;margin-top:20px;"
+                             border="1px" border-color="#000;" align="right">
+                    </span></h3></a>
+                {{ post.content }}
+            {% endif %}
+        {% endfor %}
+    </article>
 </body>
 </html>
