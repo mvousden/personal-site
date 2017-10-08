@@ -1,6 +1,7 @@
 ---
 category: Projects
 title: Virtual Micromagnetics
+anchorID: virtualmicromagnetics
 imagePath: project_virtual_micromagnetics.png
 externalUrl: http://virtualmicromagnetics.org
 ---

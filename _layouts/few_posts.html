@@ -9,13 +9,15 @@
             {% for post in site.posts reversed %}
                 {% if post.category == page.title %}
                     <hr>
-                    <a href={{ post.externalUrl }} name={{ post.title }}><h3>
+                    <a href={{ post.externalUrl }}
+                       name={{ post.anchorID }}><h3>
                     {{ post.title }}
                     <span style="float:right;">
                         <img src={{ site.imageDir }}/{{ post.imagePath }}
                              style="width:350px;height:200px;margin-top:20px;"
                              border="1px" border-color="#000;" align="right">
-                    </span></h3></a>
+                    </span>
+                    </h3></a>
                 {{ post.content }}
             {% endif %}
         {% endfor %}

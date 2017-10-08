@@ -1,6 +1,7 @@
 ---
 category: Projects
 title: Chagu
+anchorID: chagu
 imagePath: project_chagu.png
 externalUrl: https://github.com/mvousden/chagu
 ---
